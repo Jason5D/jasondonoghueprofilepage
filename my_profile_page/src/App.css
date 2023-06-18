@@ -1,0 +1,153 @@
+/* Global Variables */
+:root {
+    --richblack: #050311;
+    --licorice: #1B151A;
+    --russianviolet: #180C3B;
+    --darkgreen: #0C301F;
+}
+
+/* 
+var(--richblack)
+var(--licorice)
+var(--russianviolet)
+var(--darkgreen)
+*/
+
+body {
+    background-color: var(--richblack);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+}
+
+.header {
+    grid-row: 2 / 3;
+    grid-column: 1 / 8;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutme {
+    grid-row: 3;
+    grid-column: 2 / 3;
+    background-color: var(--russianviolet);
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.skills {
+    grid-row: 3;
+    grid-column: 3 / 4;
+    background-color: var(--russianviolet);
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.hobbies {
+    grid-row: 3;
+    grid-column: 4 / 5;
+    background-color: var(--russianviolet);
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.education {
+    grid-row: 3;
+    grid-column: 5 / 6;
+    background-color: var(--russianviolet);
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.experience {
+    grid-row: 3;
+    grid-column: 6 / 7;
+    background-color: var(--russianviolet);
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.render {
+    grid-row: 4;
+    grid-column: 2 / 7;
+    background-color: var(--darkgreen);
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.studyosaurus {
+    grid-row: 5;
+    grid-column: 2 / 7;
+    background-color: var(--russianviolet);
+    display: flex;
+    justify-content: left;
+    border-radius: 10px;
+}
+
+.wisewalletkitchen {
+    grid-row: 6;
+    grid-column: 2 / 7;
+    background-color: var(--darkgreen);
+    display: flex;
+    justify-content: right;
+    border-radius: 10px;
+}
+
+.sportsday {
+    grid-row: 7;
+    grid-column: 2 / 7;
+    background-color: var(--russianviolet);
+    display: flex;
+    justify-content: left;
+    border-radius: 10px;
+}
+
+.bookclub {
+    grid-row: 8;
+    grid-column: 2 / 7;
+    background-color: var(--darkgreen);
+    display: flex;
+    justify-content: left;
+    border-radius: 10px;
+}
+
+.personalpantry {
+    grid-row: 9;
+    grid-column: 2 / 7;
+    background-color: var(--russianviolet);
+    display: flex;
+    justify-content: left;
+    border-radius: 10px;
+}
+
+.minecleaner {
+    grid-row: 10;
+    grid-column: 2 / 7;
+    background-color: var(--darkgreen);
+    display: flex;
+    justify-content: left;
+    border-radius: 10px;
+}
+
+.footer {
+    grid-row: 11;
+    grid-column: 1 / 8;
+    display: flex;
+    justify-content: center;
+}
+
+h2, h3 {
+    color: white;
+}
+
