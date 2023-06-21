@@ -92,6 +92,7 @@ body {
   background-color: var(--russianviolet);
   display: flex;
   justify-content: left;
+  flex-direction: column;
   border-radius: 10px;
   width: 100%;
 }
@@ -105,6 +106,7 @@ body {
   background-color: var(--darkgreen);
   display: flex;
   justify-content: right;
+  flex-direction: column;
   border-radius: 10px;
   width: 100%;
 }
@@ -115,39 +117,55 @@ body {
 }
 
 .sportsday {
-  grid-row: 7;
-  grid-column: 2 / 7;
   background-color: var(--russianviolet);
   display: flex;
   justify-content: left;
   border-radius: 10px;
+  width: 100%;
+}
+
+.sportsdaylink {
+  grid-row: 7;
+  grid-column: 2 / 7;
 }
 
 .bookclub {
-  grid-row: 8;
-  grid-column: 2 / 7;
   background-color: var(--darkgreen);
   display: flex;
-  justify-content: left;
+  justify-content: right;
   border-radius: 10px;
+  width: 100%;
+}
+
+.bookclublink {
+  grid-row: 8;
+  grid-column: 2 / 7;
 }
 
 .personalpantry {
-  grid-row: 9;
-  grid-column: 2 / 7;
   background-color: var(--russianviolet);
   display: flex;
   justify-content: left;
   border-radius: 10px;
+  width: 100%;
+}
+
+.personalpantrylink {
+  grid-row: 9;
+  grid-column: 2 / 7;
 }
 
 .minecleaner {
-  grid-row: 10;
-  grid-column: 2 / 7;
   background-color: var(--darkgreen);
   display: flex;
-  justify-content: left;
+  justify-content: right;
   border-radius: 10px;
+  width: 100%;
+}
+
+.minecleanerlink {
+  grid-row: 10;
+  grid-column: 2 / 7;
 }
 
 .footer {
@@ -158,6 +176,8 @@ body {
 }
 
 h2,
-h3 {
+h3, p {
   color: white;
+  padding: 1%;
+  margin: 0;
 }

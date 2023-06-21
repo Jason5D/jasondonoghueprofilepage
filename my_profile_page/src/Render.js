@@ -14,7 +14,7 @@ export default function Render({
   ) {
     return (
       <div className="render">
-        <p>Choose from above...</p>
+        <p>Choose from above for info about me...or take a look at my project below...</p>
       </div>
     );
   } else if (aboutMe !== null) {
