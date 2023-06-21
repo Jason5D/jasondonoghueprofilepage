@@ -100,13 +100,13 @@ body {
 .studyosauruslink {
   grid-row: 5;
   grid-column: 2 / 7;
+  text-decoration: none;
 }
 
 .wisewalletkitchen {
   background-color: var(--darkgreen);
   display: flex;
   justify-content: right;
-  flex-direction: column;
   border-radius: 10px;
   width: 100%;
 }
@@ -114,6 +114,7 @@ body {
 .wisewalletlink {
   grid-row: 6;
   grid-column: 2 / 7;
+  text-decoration: none;
 }
 
 .sportsday {
@@ -127,6 +128,7 @@ body {
 .sportsdaylink {
   grid-row: 7;
   grid-column: 2 / 7;
+  text-decoration: none;
 }
 
 .bookclub {
@@ -140,6 +142,7 @@ body {
 .bookclublink {
   grid-row: 8;
   grid-column: 2 / 7;
+  text-decoration: none;
 }
 
 .personalpantry {
@@ -153,6 +156,7 @@ body {
 .personalpantrylink {
   grid-row: 9;
   grid-column: 2 / 7;
+  text-decoration: none;
 }
 
 .minecleaner {
@@ -166,13 +170,16 @@ body {
 .minecleanerlink {
   grid-row: 10;
   grid-column: 2 / 7;
+  text-decoration: none;
 }
 
 .footer {
   grid-row: 11;
   grid-column: 1 / 8;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  font-style: italic;
 }
 
 h2,
@@ -181,3 +188,5 @@ h3, p {
   padding: 1%;
   margin: 0;
 }
+
+

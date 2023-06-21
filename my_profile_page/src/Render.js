@@ -14,7 +14,7 @@ export default function Render({
   ) {
     return (
       <div className="render">
-        <p>Choose from above for info about me...or take a look at my project below...</p>
+        <p>Above for info...or below for projects...</p>
       </div>
     );
   } else if (aboutMe !== null) {
@@ -81,20 +81,14 @@ export default function Render({
           </div>
           <div>
             <p>
-              Teamwork: Daily collaboration with diverse teams. Agile
-              methodology with sprints, Kanban planning, & retros.
-            </p>
-            <p>
-              Problem solving: Developed strong ability to break down
-              challenging problems through kata’s, tutorials & projects.
-            </p>
-            <p>
-              Mindset: Emphasised growth mindset, seeking challenges, embracing
-              failure, and continuous improvement.
-            </p>
-            <p>
-              Planning: Prioritised planning, establishing purpose, and best
-              practices to optimise team focus to hit deadlines.
+              Upon course completion, I've gained expertise in teamwork,
+              problem-solving, mindset, and planning. Engaging in collaborative
+              projects, I utilized Agile methodologies, such as sprints, Kanban
+              planning, and retrospectives. I excelled in breaking down complex
+              problems through kata exercises, tutorials, and hands-on projects.
+              Embracing a growth mindset, I sought challenges, learned from
+              failures, and prioritized meticulous planning for optimized team
+              focus and meeting deadlines.
             </p>
           </div>
           <br />
@@ -104,20 +98,12 @@ export default function Render({
           </div>
           <div>
             <p>
-              Troubleshooting: Hardware & software, network devices, printers,
-              servers.
-            </p>
-            <p>
-              Implementation: Network security, server configuration, standards
-              & protocols management.
-            </p>
-            <p>
-              Infrastructure: Functional network design, firewall configuration,
-              OS migration.
-            </p>
-            <p>
-              Certification: CompTIA A+ qualified in hardware & software
-              troubleshooting.
+              After this course I have experienced how to troubleshoot hardware,
+              software, network devices, printers, and servers. Proficient in
+              implementing network security, server configuration, and managing
+              standards and protocols. Explored functional network design,
+              firewall configuration, and OS migration. CompTIA A+ certified for
+              hardware and software troubleshooting.
             </p>
           </div>
           <br />
@@ -127,20 +113,11 @@ export default function Render({
           </div>
           <div>
             <p>
-              Responsibility: Account management of the OEM customer base in
-              England & NI, project support and training.
-            </p>
-            <p>
-              Commercials: Secured £2m business, 25% of company total, increase
-              from last year.
-            </p>
-            <p>
-              Product design: Collaborated across all levels for product
-              development & new product launch.
-            </p>
-            <p>
-              Site support: Troubleshooting & fixing issues in project
-              implementation & technology setup.
+              Managed OEM accounts in England & Northern Ireland, providing
+              project support and training. Secured £2m in business,
+              representing 25% company revenue increase. Collaborated on product
+              design and launch. Provided on-site troubleshooting and support
+              during project implementation.
             </p>
           </div>
           <br />
@@ -150,22 +127,13 @@ export default function Render({
           </div>
           <div>
             <p>
-              Commercials: Oversaw £1.5m for key accounts, supporting sales and
-              technical support teams.
-            </p>
-            <p>
-              Training: Conducted internal and customer/industry training
-              sessions, showcasing, and explaining new technology.
-            </p>
-            <p>
-              Cooperation: Collaborated across teams and departments, including
-              third-party contractors for large projects.
-            </p>
-            <p>
-              Critical thinking – Employed strategic thinking for contract,
-              pricing, and project management, emphasising business
-              relationships, conflict resolution and key relationship
-              management.
+              Managed £1.5m for key accounts, supporting sales and technical
+              teams. Conducted training sessions for internal and external
+              audiences, showcasing new technology. Collaborated across teams,
+              including third-party contractors, for successful project
+              execution. Employed critical thinking for contract, pricing, and
+              project management, emphasizing business relationships and
+              conflict resolution.
             </p>
           </div>
           <br />
@@ -175,20 +143,10 @@ export default function Render({
           </div>
           <div>
             <p>
-              Partnerships: Supported different teams within the company through
-              tech demo’s & designing lighting systems.
-            </p>
-            <p>
-              Innovating ideas: Found solutions for unsolved problems by
-              thinking creatively & developing new approaches.
-            </p>
-            <p>
-              Organising projects: Created technical schematics, estimates &
-              project plans to ensure timely delivery of objectives.
-            </p>
-            <p>
-              Communication – Presented & collaborated with diverse teams,
-              engaging potential customers to discuss technology.
+              Supported teams through tech demos & lighting system design. Found
+              innovative solutions by thinking creatively. Organized projects
+              with technical schematics, estimates, and plans. Effective
+              communication with diverse teams and potential customers.
             </p>
           </div>
           <br />
@@ -198,20 +156,10 @@ export default function Render({
           </div>
           <div>
             <p>
-              Teamwork: Fostered partnerships with multiple companies to achieve
-              shared goals and mutual success.
-            </p>
-            <p>
-              Business Development: Cultivated relationships with key customers,
-              aligning their needs with innovative products.
-            </p>
-            <p>
-              Disciplined: Exhibited strong organisation skills &
-              self-discipline in managing customer relationships.
-            </p>
-            <p>
-              Planning: Strategically coordinated product-focused seminars,
-              meticulously organising all aspects of the event.
+              Fostered partnerships with companies, aligning customer needs with
+              innovative products. Exhibited strong organisation and discipline
+              in customer relationship management. Strategically coordinated and
+              organized successful product-focused seminars.
             </p>
           </div>
           <br />
@@ -221,20 +169,11 @@ export default function Render({
           </div>
           <div>
             <p>
-              Management: Across a region of the UK was responsible for 79
-              accounts, the products purchased and any issues.
-            </p>
-            <p>
-              Support: Assisted team members and account sales teams, ensuring
-              smooth operations.
-            </p>
-            <p>
-              Flexible attitude: Adapted to economic strains, difficult
-              customers, and changing products.
-            </p>
-            <p>
-              Determination: Maintained projects and customer base despite
-              company challenges.
+              Managed UK region with 79 accounts, handling purchases and issue
+              resolution. Supported team members and account sales teams for
+              smooth operations. Adapted flexibly to economic strains, difficult
+              customers, and changing products. Maintained projects and customer
+              base despite company challenges.
             </p>
           </div>
         </ul>
