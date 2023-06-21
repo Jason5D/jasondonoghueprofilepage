@@ -63,7 +63,6 @@ export default function Render({
     return (
       <div className="render">
         <ul>
-          <p>2023: AWS Practitioner</p>
           <p>2022: CompTIA A+ / 220 1101 + 1102</p>
           <p>2019: PRINCE 2 certification</p>
           <p>2018: Certified Associate in Project Management</p>
